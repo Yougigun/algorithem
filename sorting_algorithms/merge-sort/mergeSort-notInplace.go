@@ -16,7 +16,7 @@ func main() {
 func merge(arr1 []float64, arr2 []float64) []float64 {
 	n := len(arr1)
 	m := len(arr2)
-	result := []float64{}
+	result := make([]float64,0,m+n)
 	x := 0
 	y := 0
 	for i := 0; i < n+m; i++ {
