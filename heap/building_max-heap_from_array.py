@@ -52,13 +52,13 @@ if __name__ == '__main__':
       
     # Binary Tree Representation 
     # of input array 
-    # 1 
+    #            1 
     #         /     \ 
-    # 3         5 
-    #     / \     / \ 
-    # 4     6 13 10 
-    # / \ / \ 
-    # 9 8 15 17 
+    #       3        5 
+    #      /  \     / \ 
+    #    4     6   13 10 
+    #   / \    / \ 
+    #   9  8  15 17 
     arr = [ 1, 3, 5, 4, 6, 13,  
              10, 9, 8, 15, 17 ]
   
@@ -69,12 +69,12 @@ if __name__ == '__main__':
     printHeap(arr, n)
       
     # Final Heap: 
-    # 17 
+    #            17 
     #         /     \ 
-    # 15         13 
-    #     / \     / \ 
-    # 9     6 5 10 
-    #     / \ / \ 
-    # 4 8 3 1 
+    #        15     13 
+    #       / \     / \ 
+    #      9   6   5   10 
+    #     / \  / \ 
+    #    4  8  3  1 
   
 # This code is contributed by Princi Singh 
